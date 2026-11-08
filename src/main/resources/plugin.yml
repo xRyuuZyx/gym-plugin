@@ -1,0 +1,14 @@
+name: AutoGym
+version: 1.0.0
+main: id.manus.gym.AutoGymPlugin
+api-version: '1.21'
+author: Manus
+description: Latihan gym otomatis dengan progres dan stat permanen.
+commands:
+  gym:
+    description: Statistik dan pengaturan AutoGym.
+    usage: /gym <stats|give|reload>
+permissions:
+  gym.admin:
+    description: Mengelola item dan konfigurasi AutoGym.
+    default: op

@@ -1,0 +1,32 @@
+# Klik kanan item PAPER dengan CustomModelData yang sesuai untuk memulai sesi otomatis.
+# Durasi dalam detik. Stat bertambah 0.1 setiap sesi selesai, maksimum 50.0.
+gyms:
+  benchpress:
+    material: PAPER
+    custom-model-data: 10001
+    display-name: '&cBench Press'
+    seconds: 30
+    stat: strength
+  treadmill:
+    material: PAPER
+    custom-model-data: 10002
+    display-name: '&eTreadmill'
+    seconds: 30
+    stat: agility
+  pullup:
+    material: PAPER
+    custom-model-data: 10003
+    display-name: '&bPull-Up'
+    seconds: 30
+    stat: defense
+
+ui:
+  progress-bar-length: 20
+  lock-movement-during-workout: true
+  cancel-on-damage: false
+
+# Gerakan kamera halus selama latihan (tanpa berputar mengelilingi pemain).
+camera:
+  enabled: true
+  pitch-amplitude-degrees: 0.45
+  cycle-ticks: 48
